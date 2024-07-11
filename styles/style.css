@@ -88,12 +88,13 @@ main section{
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: left top ,right bottom;  
+    background-position: left top ,right bottom;
     /* margin: 38px 0 25px 23px; */
 }
 .banner-greeting{
     font-size: 45px;
     font-weight: 600;
+    margin-top: 60px;
 }
 .banner-title{
     font-size: 85px;
@@ -104,6 +105,7 @@ main section{
 }
 .banner-content{
     max-width: 585px;
+    margin-top: 150px;
 }
 .banner-profile-pic{
     width: 585px;
@@ -209,3 +211,12 @@ footer input[type="text"], footer input[Type="email"], footer input[type="textar
 
 }
  
+/* .btn-primary-margin{
+    margin-top: 100px;
+} */
+
+input:focus-visible{
+    color: aqua;
+    background-color: black;
+
+}
